@@ -1,5 +1,5 @@
-FROM jenkins:latest
-MAINTAINER Matheus Fidelis <msfidelis01@gmail.com>
+FROM  jenkins/jenkins:lts
+USER root
 
 VOLUME /var/jenkins_home
 
